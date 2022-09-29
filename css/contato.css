@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+body {
+  background: linear-gradient(to right, #373b44, #4286f4);
+  margin: auto;
+  width: 1200px;
+}
+
+.banner {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0 0 15px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+header .menu li {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+header .menu li a {
+  color: #2e2f39;
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  background-color: #f7cfa4;
+  font-weight: bold;
+}
+
+header .nav {
+  margin-top: 20px;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+main .container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.content {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #f7cfa4;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.contato {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.contato form {
+  width: 450px;
+  height: 400px;
+  text-align: left;
+  color: #f7cfa4;
+}
+
+.contato img {
+  width: 400px;
+  height: 400px;
+}
+
+.contato form div {
+  padding-bottom: 5px;
+}
+
+input {
+  border: 2px solid #2e2f39;
+  border-radius: 4px;
+}
+
+button {
+  border: 2px solid #2e2f39;
+  border-radius: 4px;
+  padding: 15px;
+  color: #2e2f39;
+  background: #f7cfa4;
+  font-weight: bold;
+}
